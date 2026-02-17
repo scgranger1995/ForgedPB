@@ -395,10 +395,10 @@
       Object.assign(successMsg.style, {
         padding: '12px 20px',
         marginTop: '12px',
-        background: 'linear-gradient(135deg, rgba(255,183,197,0.15), rgba(200,100,120,0.1))',
-        border: '1px solid rgba(255,183,197,0.3)',
+        background: 'linear-gradient(135deg, rgba(201,169,110,0.15), rgba(166,137,64,0.1))',
+        border: '1px solid rgba(201,169,110,0.3)',
         borderRadius: '6px',
-        color: '#ffb7c5',
+        color: '#dbb978',
         fontSize: '14px',
         textAlign: 'center',
         animation: 'fadeIn 0.3s ease',

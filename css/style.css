@@ -15,13 +15,13 @@
     --color-surface-alt:    #1a1a1a;
     --color-surface-hover:  #1f1f1f;
 
-    /* Colors - Accent */
-    --color-accent:         #ff6b9d;
-    --color-accent-hover:   #ff85b1;
-    --color-accent-dark:    #e05a87;
-    --color-accent-secondary: #ff8fb3;
-    --color-accent-glow:    rgba(255, 107, 157, 0.25);
-    --color-accent-glow-strong: rgba(255, 107, 157, 0.45);
+    /* Colors - Accent (Forged Gold / Samurai Armor) */
+    --color-accent:         #c9a96e;
+    --color-accent-hover:   #dbb978;
+    --color-accent-dark:    #a68940;
+    --color-accent-secondary: #e8d5a8;
+    --color-accent-glow:    rgba(201, 169, 110, 0.25);
+    --color-accent-glow-strong: rgba(201, 169, 110, 0.45);
 
     /* Colors - Text */
     --color-text-primary:   #ffffff;
@@ -866,10 +866,10 @@ html {
     position: absolute;
     inset: 0;
     background:
-        radial-gradient(ellipse at 20% 50%, rgba(255, 107, 157, 0.15) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 30%, rgba(180, 60, 100, 0.12) 0%, transparent 45%),
-        radial-gradient(ellipse at 50% 80%, rgba(255, 143, 179, 0.08) 0%, transparent 50%),
-        linear-gradient(135deg, #0a0a0a 0%, #1a0f15 30%, #120a10 60%, #0a0a0a 100%);
+        radial-gradient(ellipse at 20% 50%, rgba(201, 169, 110, 0.15) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 30%, rgba(166, 137, 64, 0.12) 0%, transparent 45%),
+        radial-gradient(ellipse at 50% 80%, rgba(219, 185, 120, 0.08) 0%, transparent 50%),
+        linear-gradient(135deg, #0a0a0a 0%, #1a0f0f 30%, #120a0a 60%, #0a0a0a 100%);
     background-size: cover;
 }
 
@@ -1368,9 +1368,9 @@ html {
     position: absolute;
     inset: 0;
     background:
-        radial-gradient(ellipse at 30% 40%, rgba(255, 107, 157, 0.12) 0%, transparent 50%),
-        radial-gradient(ellipse at 70% 70%, rgba(180, 60, 100, 0.08) 0%, transparent 45%),
-        linear-gradient(160deg, #111111 0%, #1a0f15 50%, #0f0a0d 100%);
+        radial-gradient(ellipse at 30% 40%, rgba(201, 169, 110, 0.12) 0%, transparent 50%),
+        radial-gradient(ellipse at 70% 70%, rgba(166, 137, 64, 0.08) 0%, transparent 45%),
+        linear-gradient(160deg, #111111 0%, #1a0f0f 50%, #0f0a0a 100%);
 }
 
 .banner-section__overlay {
@@ -1378,7 +1378,7 @@ html {
     inset: 0;
     background: linear-gradient(
         135deg,
-        rgba(255, 107, 157, 0.1) 0%,
+        rgba(201, 169, 110, 0.1) 0%,
         rgba(10, 10, 10, 0.9) 50%,
         rgba(10, 10, 10, 0.95) 100%
     );
@@ -1601,7 +1601,7 @@ html {
 .category-card:hover::before {
     background: linear-gradient(
         180deg,
-        rgba(255, 107, 157, 0.05) 0%,
+        rgba(201, 169, 110, 0.05) 0%,
         rgba(10, 10, 10, 0.9) 100%
     );
 }
@@ -1673,7 +1673,7 @@ html {
     height: 100%;
     background: radial-gradient(
         ellipse at 80% 50%,
-        rgba(255, 107, 157, 0.06) 0%,
+        rgba(201, 169, 110, 0.06) 0%,
         transparent 60%
     );
     pointer-events: none;
@@ -1779,8 +1779,8 @@ html {
     border: 1px solid var(--color-border);
     box-shadow:
         0 0 60px var(--color-accent-glow),
-        0 0 120px rgba(255, 107, 157, 0.1),
-        inset 0 0 60px rgba(255, 107, 157, 0.05);
+        0 0 120px rgba(201, 169, 110, 0.1),
+        inset 0 0 60px rgba(201, 169, 110, 0.05);
 }
 
 /* Animated glow ring */
@@ -1817,7 +1817,7 @@ html {
     position: absolute;
     inset: -6px;
     border-radius: var(--radius-full);
-    border: 1px solid rgba(255, 107, 157, 0.15);
+    border: 1px solid rgba(201, 169, 110, 0.15);
     z-index: -2;
 }
 
@@ -1991,7 +1991,7 @@ html {
 .footer__social a:hover {
     color: var(--color-accent);
     border-color: var(--color-accent);
-    background: rgba(255, 107, 157, 0.1);
+    background: rgba(201, 169, 110, 0.1);
     transform: translateY(-2px);
 }
 
@@ -2505,7 +2505,7 @@ html {
         box-shadow: 0 0 0 0 var(--color-accent-glow);
     }
     50% {
-        box-shadow: 0 0 0 12px rgba(255, 107, 157, 0);
+        box-shadow: 0 0 0 12px rgba(201, 169, 110, 0);
     }
 }
 
